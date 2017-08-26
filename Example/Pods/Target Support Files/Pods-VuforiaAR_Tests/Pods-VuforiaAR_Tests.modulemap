@@ -1,0 +1,6 @@
+framework module Pods_VuforiaAR_Tests {
+  umbrella header "Pods-VuforiaAR_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

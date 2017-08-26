@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VuforiaAR_Example' do
+  pod 'VuforiaAR', :path => '../'
+
+  target 'VuforiaAR_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

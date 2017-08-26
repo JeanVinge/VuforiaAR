@@ -1,0 +1,22 @@
+{
+  "name": "VuforiaAR",
+  "version": "0.1.0",
+  "summary": "A short description of VuforiaAR.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jean_vinge@hotmail.com/VuforiaAR",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jean_vinge@hotmail.com": "jean.vinge@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jean_vinge@hotmail.com/VuforiaAR.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VuforiaAR/Classes/**/*"
+}
