@@ -28,11 +28,11 @@ TODO: Wrap for vuforia install as pod.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'VuforiaAR/Vuforia/Vuforia/*.h'
+  s.source_files = 'Vuforia/Vuforia/*.h'
 
-  s.vendored_libraries = 'VuforiaAR/Vuforia/binary/*.a'
+  s.vendored_libraries = 'Vuforia/binary/*.a'
 
-  s.private_header_files = 'VuforiaAR/Vuforia/Vuforia/*.h'
+  s.private_header_files = 'Vuforia/Vuforia/*.h'
   s.library = 'c++'
   s.xcconfig = {
                 'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11','CLANG_CXX_LIBRARY' => 'libc++'
