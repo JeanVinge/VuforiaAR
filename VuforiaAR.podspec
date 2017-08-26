@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VuforiaAR'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'make vuforia sdk more easy to install.'
   s.description      = 'arrrrarrrarararararaadsdasdssfsfsfssrararrrararar'
   s.homepage         = 'https://github.com/JeanVinge/VuforiaAR'
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'VuforiaAR/Vuforia/Vuforia/*.h'
-  s.vendored_libraries = 'VuforiaAR/Vuforia/binary/*.a'
-  s.private_header_files = 'VuforiaAR/Vuforia/Vuforia/*.h'
+  s.source_files = 'Vuforia/Vuforia/*.h'
+  s.vendored_libraries = 'Vuforia/binary/*.a'
+  s.private_header_files = 'Vuforia/Vuforia/*.h'
 
 s.library = 'c++'
 
