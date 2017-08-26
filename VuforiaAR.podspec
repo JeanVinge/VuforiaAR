@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VuforiaAR'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'make vuforia sdk more easy to install.'
   s.description      = 'arrrrarrrarararararaadsdasdssfsfsfssrararrrararar'
   s.homepage         = 'https://github.com/JeanVinge/VuforiaAR'
